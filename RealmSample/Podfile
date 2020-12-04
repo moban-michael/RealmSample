@@ -7,6 +7,8 @@ target 'RealmSample' do
 
   # Pods for RealmSample
      pod 'RealmSwift'
+     pod 'RxSwift'
+     pod 'RxCocoa'
 
   target 'RealmSampleTests' do
     inherit! :search_paths
